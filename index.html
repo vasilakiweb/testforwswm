@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditii</title>
+    <!-- Icon -->
+    <link rel="icon" href="img/shopping-icon.png" type="image/gif" sizes="16x16">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header--flex container">
+            <a href="index.html" class="logo">Aditii</a>
+            <div class="search-box">
+                <input type="text" class="search-box__input">
+                <img src="img/search-icon.png" alt="Search" class="search-box__icon">
+            </div>
+            <div class="shopping-info">
+                <img src="img/shopping-icon.png" alt="Shopping basket" class="shopping-info__icon">
+                <span class="shopping-info__money">$300</span>
+            </div>
+            <div class="burger">
+                <div class="burger__line burger__line--top"></div>
+                <div class="burger__line burger__line--mid"></div>
+                <div class="burger__line burger__line--bottom"></div>
+            </div>
+        </div>
+        <div class="burger__menu">
+            <ul class="nav__list--burger">
+                <li class="nav__list--burger-item"><a href="index.html">Home</a></li>
+                <li class="nav__list--burger-item"><a href="#">Sale</a></li>
+                <li class="nav__list--burger-item"><a href="#">Mens Store</a></li>
+                <li class="nav__list--burger-item"><a href="#">Women Store</a></li>
+                <li class="nav__list--burger-item"><a href="index.html">Services</a></li>
+                <li class="nav__list--burger-item"><a href="index.html">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- <div class="close-button display-none">
+            <div class="close-button__line"></div>
+            <div class="close-button__line"></div>
+        </div> -->
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav--flex container">
+            <ul class="nav__list nav__list--laptop">
+                <li class="nav__list-item"><a href="index.html">Home</a></li>
+                <li class="nav__list-item"><a href="#">Sale</a></li>
+                <li class="nav__list-item"><a href="#">Handbags</a></li>
+                <li class="nav__list-item"><a href="index.html">Wallets</a></li>
+                <li class="nav__list-item"><a href="index.html">Accessories</a></li>
+                <li class="nav__list-item"><a href="index.html">Mens Store</a></li>
+                <li class="nav__list-item"><a href="index.html">Shoes</a></li>
+                <li class="nav__list-item"><a href="index.html">Vintage</a></li>
+                <li class="nav__list-item"><a href="index.html">Services</a></li>
+                <li class="nav__list-item"><a href="index.html">Contact us</a></li>
+            </ul>
+            <ul class="nav__list nav__list--tablet">
+                <li class="nav__list-item"><a href="index.html">Home</a></li>
+                <li class="nav__list-item"><a href="#">Sale</a></li>
+                <li class="nav__list-item"><a href="#">Mens Store</a></li>
+                <li class="nav__list-item"><a href="#">Women Store</a></li>
+                <li class="nav__list-item"><a href="index.html">Services</a></li>
+                <li class="nav__list-item"><a href="index.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="banner--flex">
+            <div class="banner__images">
+                <img src="img/products/tshirt-banner.png" alt="Product" class="banner__image">
+                <img src="img/products/tshirt-banner.png" alt="Product" class="banner__image">
+                <img src="img/products/tshirt-banner.png" alt="Product" class="banner__image">
+                <img src="img/products/tshirt-banner.png" alt="Product" class="banner__image">
+                <img src="img/products/tshirt-banner.png" alt="Product" class="banner__image">
+            </div>
+            <div class="banner__info">
+                <span class="banner__title">Cowhide Standard Crew</span>
+                <span class="banner__description">White coloured, short-sleeved, printed T-shirt for men by Levi's. This crew-neck T-shirt is made of organic cotton and comes in a regular fit. </span>
+                <a href="#" class="banner__button">Shop now</a>
+                <div class="slide-circles">
+                    <span class="slide-circle slide-circle--active"></span>
+                    <span class="slide-circle"></span>
+                    <span class="slide-circle"></span>
+                    <span class="slide-circle"></span>
+                    <span class="slide-circle"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="categories">
+        <div class="categories--flex">
+            <img src="img/left-arrow-icon.png" alt="Left arrow" class="categories__left-arrow">
+            <div class="categories__products categories__container">
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/shoes-man.png" alt="Shoes man">
+                        <div class="categories__text">
+                            <span class="title categories__title">Branded Shoes</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/t-shirt-1.png" alt="T-Shirt">
+                        <div class="categories__text">
+                            <span class="title categories__title">bRANDED
+                                tSHIRTS</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/pants-1.png" alt="Pants">
+                        <div class="categories__text">
+                            <span class="title categories__title categories__title--last">Branded Shoes</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/shoes-2.png" alt="Shoes man">
+                        <div class="categories__text">
+                            <span class="title categories__title">Branded Shoes</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/bag-2.png" alt="T-Shirt">
+                        <div class="categories__text">
+                            <span class="title categories__title">Branded Shoes</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/t-shirt-2.png" alt="Pants">
+                        <div class="categories__text">
+                            <span class="title categories__title categories__title--last">Branded Shoes</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/bag-1.png" alt="Shoes man">
+                        <div class="categories__text">
+                            <span class="title categories__title">Branded Shoes</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/bag-2.png" alt="T-Shirt">
+                        <div class="categories__text">
+                            <span class="title categories__title">Branded Shoes</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/shoes-man.png" alt="Pants">
+                        <div class="categories__text">
+                            <span class="title categories__title">Branded Shoes</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="categories__product">
+                    <div class="categories__product--padding">
+                        <img src="img/products/bag-2.png" alt="T-Shirt">
+                        <div class="categories__text">
+                            <span class="title categories__title">Branded Shoes</span>
+                            <span class="product-button-buy categories__button">SHOP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="img/right-arrow-icon.png" alt="Right arrow" class="categories__right-arrow">
+        </div>
+    </div>
+
+    <!-- Products -->
+    <div class="featured-products">
+        <div class="featured-products--flex container">
+            <span class="featured-products__title">Featured Products</span>
+        </div>
+    </div>
+    <div class="products">
+        <div class="products--flex container">
+            <div class="product">
+                <img src="img/products/shoes-2.png" alt="Product" class="product__image">
+                <div class="product__text">
+                    <div class="title product__title">bRANDED sHOE</div>
+                    <div class="product__purchase">
+                        <span class="product__price">$300</span>
+                        <span class="product-button-buy product__button">BUY NOW</span>
+                    </div>
+                </div>
+                <div class="bottom-line"></div>
+            </div>
+            <div class="product">
+                <img src="img/products/t-shirt-2.png" alt="Product" class="product__image">
+                <div class="product__text">
+                    <div class="title product__title">bRANDED tEES</div>
+                    <div class="product__purchase">
+                        <span class="product__price">$300</span>
+                        <span class="product-button-buy product__button">BUY NOW</span>
+                    </div>
+                </div>
+                <div class="bottom-line"></div>
+            </div>
+            <div class="product">
+                <img src="img/products/t-shirt-3.png" alt="Product" class="product__image">
+                <div class="product__text">
+                    <div class="title product__title">bRANDED sHOE</div>
+                    <div class="product__purchase">
+                        <span class="product__price">$300</span>
+                        <span class="product-button-buy product__button">BUY NOW</span>
+                    </div>
+                </div>
+                <div class="bottom-line"></div>
+            </div>
+            <div class="product">
+                <img src="img/products/bag-1.png" alt="Product" class="product__image">
+                <div class="product__text">
+                    <div class="title product__title">bRANDED sHOE</div>
+                    <div class="product__purchase">
+                        <span class="product__price">$300</span>
+                        <span class="product-button-buy product__button">BUY NOW</span>
+                    </div>
+                </div>
+                <div class="bottom-line"></div>
+            </div>
+            <div class="product">
+                <img src="img/products/bag-2.png" alt="Product" class="product__image">                    
+                <div class="product__text">
+                    <div class="title product__title">EMS Women  bAG</div>
+                    <div class="product__purchase">
+                        <span class="product__price">$300</span>
+                        <span class="product-button-buy product__button">BUY NOW</span>
+                    </div>
+                </div>
+                <div class="bottom-line"></div>
+            </div>
+            <div class="product">
+                <img src="img/products/pants-1.png" alt="Product" class="product__image">
+                <div class="product__text">
+                    <div class="title product__title">bRANDED CARGOS </div>
+                    <div class="product__purchase">
+                        <span class="product__price">$300</span>
+                        <span class="product-button-buy product__button">BUY NOW</span>
+                    </div>
+                </div>
+                <div class="bottom-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer--flex container">
+            <div class="footer__block">
+                <span class="title footer__title">fEATURED sALE</span>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Alexis Hudson</li>
+                    <li class="footer__list-item">American Apparel</li>
+                    <li class="footer__list-item">Ben Sherman</li>
+                    <li class="footer__list-item">Big Buddha</li>
+                    <li class="footer__list-item">Chanel</li>
+                    <li class="footer__list-item">Christian Audigier</li>
+                    <li class="footer__list-item">Coach</li>
+                    <li class="footer__list-item">Cole Haan</li>
+                </ul>
+            </div>
+            <div class="footer__block">
+                <span class="title footer__title">MENS STORE</span>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Alexis Hudson</li>
+                    <li class="footer__list-item">American Apparel</li>
+                    <li class="footer__list-item">Ben Sherman</li>
+                    <li class="footer__list-item">Big Buddha</li>
+                    <li class="footer__list-item">Chanel</li>
+                    <li class="footer__list-item">Christian Audigier</li>
+                    <li class="footer__list-item">Coach</li>
+                    <li class="footer__list-item">Cole Haan</li>
+                </ul>
+            </div>
+            <div class="footer__block">
+                <span class="title footer__title">wOMEN sTORE</span>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Alexis Hudson</li>
+                    <li class="footer__list-item">American Apparel</li>
+                    <li class="footer__list-item">Ben Sherman</li>
+                    <li class="footer__list-item">Big Buddha</li>
+                    <li class="footer__list-item">Chanel</li>
+                    <li class="footer__list-item">Christian Audigier</li>
+                    <li class="footer__list-item">Coach</li>
+                    <li class="footer__list-item">Cole Haan</li>
+                </ul>
+            </div>
+            <div class="footer__block">
+                <span class="title footer__title">qUICK LINKS</span>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Alexis Hudson</li>
+                    <li class="footer__list-item">American Apparel</li>
+                    <li class="footer__list-item">Ben Sherman</li>
+                    <li class="footer__list-item">Big Buddha</li>
+                    <li class="footer__list-item">Chanel</li>
+                    <li class="footer__list-item">Christian Audigier</li>
+                    <li class="footer__list-item">Coach</li>
+                    <li class="footer__list-item">Cole Haan</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-coopyright">
+        <span>Copyright © 2013 Css Author</span>
+    </div>
+
+    <script src="js/bannerSlider.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+</html>
